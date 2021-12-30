@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label input tag parctice</title>
+    <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet"
+        type="text/css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2>label input tag parctice</h2>
+    <form action="" method="get">
+        <label for="user_name">이름</label>
+        <input id="user_name" type="text" placeholder="이름을 입력하세요." />
+        <label for="gender">성별</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="user_id">아이디</label>
+        <input id="user_id" type="text" placeholder="아이디를 입력하세요." />
+        <label for="user_email">이메일</label>
+        <input id="user_email" type="email" placeholder="이메일을 입력하세요." />
+        <label for="user_tel">연락처</label>
+        <input id="user_tel" type="tel" placeholder="연락처를 입력하세요." pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />
+        <input type="checkbox" value="js"><input type="checkbox" value="html"><input type="checkbox" value="css">
+        <label for="skills">기술</label>
+        <select name="skills" id="skills">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JavaScript</option>
+        </select>
+        <br>
+        <label for="field">내용</label>
+        <input type="field" placeholder="내용을 입력하세요.">
+        <button type="submit">submit</button>&nbsp;&nbsp;&nbsp;
+        <button type="reset">reset</button>&nbsp;&nbsp;&nbsp;
+        <button type="button">button</button>&nbsp;&nbsp;&nbsp;
+    </form>
+</body>
+
+</html>
