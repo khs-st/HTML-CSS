@@ -1,0 +1,33 @@
+div{
+    display: block;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 4px #000 solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: hotpink;
+}
+
+.boxs{
+    width: 300px;
+    height: 300px;
+    border: 4px #000 solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 40px;
+    /*만약 left, bottom에 명시 없으면 right,top 값 적용*/
+    /*margin: 10px 20px;*/
+    padding: 10px 20px 30px 40px;
+    margin: 20px 40px;
+    background-color: blue;
+}
