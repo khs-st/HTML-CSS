@@ -3,12 +3,13 @@
 }
 
 .parent{
-    width: 200px;
+    width: 600px;
     margin: 0 auto;
     background-color: aliceblue;
 }
 
 .child{
+    width: 200px;
     height: 200px;
     line-height: 200px;
     text-align: center;
@@ -18,13 +19,16 @@
 
 .red{
     float: left;
+    opacity: 1;
     background-color: red;
 }
 
 .yellow{
+    float: left;
     background-color: yellowgreen;
 }
 
 .blue{
+    float: left;
     background-color: blue;
 }
