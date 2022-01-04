@@ -6,6 +6,7 @@ HTML/CSS 기초 공부 기록입니다.
 강의정보:https://edu.goorm.io/lecture/20583/김버그의-html-css는-재밌다'
 
 <h1>수강 후 정리 내용</h1>
+<h2>HTML</h2>
 <ul>
   <li><h2>FORM 태그</h2>
     <p><img src="https://user-images.githubusercontent.com/64995062/148060702-c4f573de-736e-4dea-bda8-905dfd8915db.png" alt="form_tag_practice"></p>
@@ -19,5 +20,24 @@ HTML/CSS 기초 공부 기록입니다.
   <ol>
       <li>사용자가 다양하게 폼 태그에 입력할 수 있는 공간을 구성해줍니다.</li>
     <li>type: 태그 모양 변경 가능(예시: button, text, radio, checkbox, fileupload, hidden 등)</li>
+    </ol></li>
+  </ul>
+<h2>CSS</h2>
+<ul>
+  <li><h2>float 속성</h2>
+    <p><img src="https://user-images.githubusercontent.com/64995062/148069944-40069d5a-4a0d-4c34-9c88-dda9f8e60220.png" alt="float 속성"></p>
+<p>inline 요소를 float 시키는 경우 이 요소 특성은 block box로 변경되고 마치 div 태그인 것처럼 동작하게 된다.<br>
+대신 한 줄을 모두 차지하는 block이 아닌, 자신의 영역만을 가지고 있는 inline-block처럼 렌더링된다.
+<br>
+다시 말해, 플로팅된 요소는 display: inline-block; 을 선언한 것과 동일해진다.</p>
+    </ol>
+</li>
+  <li><h2>float 활용법</h2>
+  <ol>
+      <li>clearfix 활용</li>
+    <li>overflow hidden 속성 이용하기<br>
+    <p><img src="https://user-images.githubusercontent.com/64995062/148070141-77f38b0d-a8c6-4290-85d4-68d43aa069a5.png" alt="overflow hidden 속성"></p></li>
+    <li>::before, ::after를 이용한 html 작성 대신 css 가상요소 만들어 공간 채우기<br><p><img src="https://user-images.githubusercontent.com/64995062/148070247-3773f639-f66e-40de-b40e-8c58c3bcc65d.png" alt="가상요소 이용한 float 활용법"></p>
+</li>
     </ol></li>
   </ul>
