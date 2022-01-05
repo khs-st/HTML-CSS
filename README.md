@@ -40,4 +40,14 @@ HTML/CSS 기초 공부 기록입니다.
     <li>::before, ::after를 이용한 html 작성 대신 css 가상요소 만들어 공간 채우기<br><p><img src="https://user-images.githubusercontent.com/64995062/148070247-3773f639-f66e-40de-b40e-8c58c3bcc65d.png" alt="가상요소 이용한 float 활용법"></p>
 </li>
     </ol></li>
+      <li><h2>position 활용법</h2>
+  <ul>
+      <li>position:absolute; 활용</li>
+    <li>absolute의 기준 -> 자기가 기준을 삼고 싶은 요소 선택 가능하다. position이 static이 아닌 경우 가능하다.</li>
+    <li>position:fixed; 활용</li>
+    <li>viewport -> 브라우저에서 사용자에게 보이는 부분이다. fixed의 경우 viewport를 기준으로 위치하게 된다.</li>
+    <li>z-index 활용</li>
+    <li>z-index는 창을 순서대로 배치하는 스타일</li>
+    <li>기본적으로 z-index의 숫자가 높을수록 가장 상단(눈에 가깝게)에 배치, 숫자가 낮을수록 하단(눈에서 멀게) 배치된다. z-index는 음수 또는 양수의 숫자를 사용할 수 있다.</li>
+    </ul></li>
   </ul>
