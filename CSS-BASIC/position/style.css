@@ -39,3 +39,26 @@
 .blue{
     background-color: blue;
 }
+
+.grandparent2{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(36, 73, 49);
+}
+
+.green{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.orange{
+    background-color: orange;
+}
