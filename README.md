@@ -50,4 +50,28 @@ HTML/CSS 기초 공부 기록입니다.
     <li>z-index는 창을 순서대로 배치하는 스타일</li>
     <li>기본적으로 z-index의 숫자가 높을수록 가장 상단(눈에 가깝게)에 배치, 숫자가 낮을수록 하단(눈에서 멀게) 배치된다. z-index는 음수 또는 양수의 숫자를 사용할 수 있다.</li>
     </ul></li>
+    <li><h2>flexbox 정리</h2>
+  <ul>
+    <li>flex란 block과 비슷하지만 요소 쉽게 정렬 가능</li>
+    <li>inline-flex 기본적으로 inline-block과 비슷하다.</li>
+    <li>flexbox 사용 정렬 시 체크할 사항
+      <ul>
+        <li>선언 -> 정렬하고자 하는 요소를 감싸는 부모에게 display: flex;</li>
+      </ul>
+    </li>
+    <li>가로, 세로 정렬     
+      <ul>
+        <li>가로 정렬: flex-direction: row; 왼쪽에서 오른쪽 Main axis, 위에서 아래가 Cross axis</li>
+        <li>세로 정렬: flex-direction: column; 위에서 아래 Main axis 왼쪽에서 오른쪽이 Cross axis</li>
+        <li>reverse의 경우 반대</li>
+      </ul>
+    </li>
+    <li>한 줄안에? 여러 줄안에?
+      <ul>
+        <li>한 줄 안에:flex-wrap: nowrap; -> 감싸지 않고 사이즈 줄여서라도 한 줄로 정렬</li>
+        <li>여러 줄안에:flex-wrap: wrap; -> 한 줄에 모두 정렬하기에 공간 부족하면 여러 줄로 만듬</li>
+      </ul>
+    </li>
+  </ul>
+</li>
   </ul>
